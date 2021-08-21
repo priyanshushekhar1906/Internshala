@@ -1,0 +1,81 @@
+prerequisite
+html+css+js basic
+project using
+firebase, nodejs and react
+you will go in next module only by passing final test
+
+Get started
+first thing
+install git and include git in your env variables
+win+R--then write git-bash to open bash terminal
+
+Then install node js and check whether it is install or not
+
+Then install vs code
+
+Helper text rename as resources
+vs code configuration and extension
+extensions-:
+1.AUTO-RENAME TAG
+2.Bracket Pair Colorizer
+3.ES7 React/Redux/GraphQL/React-Native snippets
+4.ESLint
+5.eslint-disable-snippets
+6.Highlight Matching Tag
+7.Import Cost
+8.IntelliSense for CSS class names in HTML
+9.Material Icon Theme
+10.npm Intellisense--by Christian Kohler
+11.path Intellisense--by Christian Kohler
+12.Prettier - Code formatter
+13.Toggle Quotes
+14.Visual Studio IntelliCode
+15.vscode-styled-components
+
+in settings.json include this
+// configure bash (only for Windows users)
+ "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+ "terminal.integrated.shellArgs.windows": ["-l", "-i"],
+ // PRETTIER
+ "editor.formatOnSave": true,
+
+ FOR PRETTIER
+ >its some time struggle to recognize js and react
+ so,open setting.json
+ and include this
+----------------------------------------------------------------
+  "editor.formatOnSave": true,
+ "editor.defaultFormatter": "esbenp.prettier-vscode",
+ "[javascript]": {
+   "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.mouseWheelZoom": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+------------------------------------------------------------------
+single page application --client side rendering//server side rendering
+manage by js  looks like app//                 //when you switch page reloads
+
+//Backend-- server,Json,Rest Api and GraphQL
+server--is just a computer that response on our request
+Response
+1.api-application programming interface
+2.html+css+js
+data is transfer in json format
+get request///post request   --give all response
+//CRUD--operations
+GraphQL-Github-- give specific response
+
+//Setting up git
+git config --global user.name priyanshu singh
+priyanshu singh
+git config --global --list  //It will show all configuration
+
+
+
+
+
+
+
